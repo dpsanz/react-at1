@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-.cards-container {
+.cards-containerSobre {
   margin-left: 20rem;
   margin-right: 20rem;
   height: 50rem;
@@ -9,7 +9,7 @@
   flex-wrap: wrap; 
 }
 
-.card {
+.cardSobre{
   flex: 0 1 calc(33.33% - 20px); 
   margin: 10px;
   border-radius: 10px;
@@ -21,31 +21,48 @@
   justify-content: space-between;
 }
 
-.card-header {
+.cardSobreCorp{
+  flex: 0 1 calc(33.33% - 20px); 
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-headerSobre {
+  display: flex;
   font-weight: bold;
   background-color: #fff;
   color: #000;
   text-align: center;
   padding: 10px;
+  height: 4rem;
   font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.card-body {
+.card-bodySobre {
   flex: 1;
   padding: 20px;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
   padding: 20px;
+  justify-content: space-between;
 }
 
-.card-body h2 {
+.card-bodySobre h2 {
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
 }
 
-.card-body p {
+.card-bodySobre p {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -56,49 +73,52 @@
 }
 
 .dropdown {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #333;
+  font-family: 'Roboto Mono';
   margin-bottom: 10px;
 }
 
 .dropdown select {
+  font-family: 'Roboto Mono';
+  border-style: solid;
+  border-color: #000;
   width: 100%;
   padding: 8px;
   font-size: 1rem;
   border: none;
 }
 
-.cadastre-btn,
-.cadastre-btn2 {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #929292;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  font-weight: bold;
-}
+
 
 .cadastre-btn {
   font-family: 'Roboto Mono';
   background-color: #6975E8;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
   color: #fff;
   font-size: 1rem;
+
 }
 
 .cadastre-btn2 {
   font-family: 'Roboto Mono';
   background-color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 0.5rem;
   color: #000000;
   font-size: 1rem;
+
 }
 
 .titulo {
   color: #8790A3;
   font-size: 1rem;
+}
+
+.Planos{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #131925;
 }

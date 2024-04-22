@@ -5,8 +5,7 @@ function ContatoSec() {
       <div className="contato-container">
         <div className="info-container">
           <div className="info-text">
-            <h2>Dúvidas e Suporte</h2>
-            <p>Entre em contato:</p>
+            <h2>Dúvidas e suporte, entre em contato:</h2>
           </div>
           <div className="info-images">
             <img src="../Public/twitter.png" alt="Imagem 1" />

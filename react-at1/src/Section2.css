@@ -4,15 +4,15 @@
   }
 
   .card {
-    width: 100rem;
-    max-width: 100rem;
-    max-height: 100rem;
+    flex: 0 1 calc(33.33% - 20px); 
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-
   .card-header {
     background-color: #ffffff;
     color: #ffffff;
@@ -31,6 +31,7 @@
   .card-body .titulo{
     margin-top: 0;
     font-size: 2rem;
+    color: black;
   }
 
   .card-body p{
@@ -38,10 +39,8 @@
   }
 
   .card-image {
-    padding-right: 1.5rem;
-    padding-top: 1.5rem;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 50px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-left: 11rem;
+    padding-bottom: 5rem;
   }

@@ -5,11 +5,19 @@
     padding: 50px;
   }
   
-  .info-container,
+  .info-container{
+    flex: 1;
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
   .form-container {
     flex: 1;
   }
   
+  .info-text {
+    font-size: 3rem;
+  }
+
   .divider {
     border-left: 2px solid #ccc; 
     height: 100%; 
@@ -18,7 +26,7 @@
   
   .info-images {
     display: flex;
-    justify-content: center;
+    justify-content: start;
   }
   
   .info-images img {

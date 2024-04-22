@@ -1,62 +1,61 @@
 .cards-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-header {
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5rem;
-  }
-  
-  .card-body {
-    padding: 20px;
-  }
-  
-  .card-body h2 {
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  .card-body p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  .dropdown {
-    margin-bottom: 10px;
-  }
-  
-  .dropdown select {
-    width: 100%;
-    padding: 8px;
-    font-size: 1rem;
-  }
-  
-  .cadastre-btn,
-  .contato-btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-  }
-  
+  text-align: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+  display: inline-block; /* Exibe os cards lado a lado */
+  width: calc(33.33% - 20px); /* Define a largura de cada card */
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  vertical-align: top; /* Alinha os cards ao topo */
+}
+
+.card-header {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card-body p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.cadastre-btn,
+.contato-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}

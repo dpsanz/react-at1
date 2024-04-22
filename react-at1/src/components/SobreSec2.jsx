@@ -1,4 +1,4 @@
-import React from 'react';
+import '../SobreSec1.css';
 
 function CardsContainer() {
   const handleCadastroClick = () => {
@@ -12,9 +12,9 @@ function CardsContainer() {
   return (
     <div className="cards-container">
       <div className="card card-individual">
-        <div className="card-header" style={{ backgroundColor: '#6975E8' }}>Individual</div>
+        <div className="card-header">#6975E8</div>
         <div className="card-body">
-          <h2>#6975E8</h2>
+          <h2>Individual</h2>
           <p>1 Usuário</p>
           <div className="dropdown">
             <select>
@@ -55,3 +55,4 @@ function CardsContainer() {
 }
 
 export default CardsContainer;
+

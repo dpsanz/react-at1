@@ -1,5 +1,4 @@
-import React from 'react';
-import '../SobreSec1.css'; // Importe o arquivo CSS aqui
+import '../SobreSec1.css';
 
 function SobreSec1() {
   const handleContatoClick = () => {
@@ -10,9 +9,9 @@ function SobreSec1() {
     <section className="sobre-sec1-container">
       <div className="conteudo">
         <div className="texto">
-          <h2>Crie seus vídeos online</h2>
-          <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
-          <button className='but1' onClick={handleContatoClick}>Começar Agora!</button>
+          <h2>Bem-vindo à revolução dos vídeos!</h2>
+          <p>Somos uma startup com o objetivo de facilitar a produção de conteúdo em larga escala com qualidade profissional, capaz de atingir uma audiência de milhões de seguidores.</p>
+          <button className='but1' onClick={handleContatoClick}>Baixe o app</button>
         </div>
         <div className="imagens">
           <img src="../Public/flor.png" alt="Flor" />

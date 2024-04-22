@@ -1,15 +1,14 @@
 import '../Navbar.css'
+import{Link} from 'react-router-dom'
+
 
 function Navbar() {
-  const handleNavigate = (route) => {
-    window.location.href = route;
-  };
 
 return (
     <header>
-         <a onClick={() => handleNavigate('/')}>Home</a>
-         <a onClick={() => handleNavigate('../pages/Sobre.jsx')}>Sobre</a>
-         <a onClick={() => handleNavigate('../pages/Contato.jsx')}>Contato</a>
+         <Link to="/">Home</Link>
+         <Link to="/Sobre">Sobre</Link>
+         <Link to="/Contato">Contato</Link>
     </header>
   );
 }

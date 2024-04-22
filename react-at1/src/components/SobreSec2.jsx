@@ -1,58 +1,51 @@
-import '../SobreSec1.css';
+import '../SobreSec2.css';
 
-function CardsContainer() {
+function SobreSec2() {
   const handleCadastroClick = () => {
     console.log('Cadastrar');
   };
 
-  const handleContatoClick = () => {
-    console.log('Entre em Contato');
-  };
-
   return (
     <div className="cards-container">
-      <div className="card card-individual">
-        <div className="card-header">#6975E8</div>
+      <div className="card" style={{ backgroundColor: '#fff' }}>
+        <div className="card-header" style={{ backgroundColor: '#6975E8', color: '#000' }}>Individual</div>
         <div className="card-body">
-          <h2>Individual</h2>
-          <p>1 Usuário</p>
+          <p className='titulo' style={{fontSize:'1rem'}}>1 Usuário</p>
           <div className="dropdown">
             <select>
               <option value="15">10 Vídeos (R$15)</option>
-              {/* Outras opções de vídeos aqui */}
             </select>
           </div>
           <button className="cadastre-btn" onClick={handleCadastroClick}>Cadastrar</button>
         </div>
       </div>
 
-      <div className="card card-profissional">
-        <div className="card-header">Profissional - Times</div>
+      <div className="card" style={{ backgroundColor: '#fff' }}>
+        <div className="card-header" style={{ backgroundColor: '#fff', color: '#000' }}>Profissional - Times</div>
         <div className="card-body">
-          <h2>Profissional - Times</h2>
-          <p>1-10 Usuários</p>
+          <p className='titulo' style={{fontSize:'1rem'}}>1-10 Usuários</p>
           <div className="dropdown">
             <select>
               <option value="40">Vídeos Ilimitados (R$40)</option>
-              <option value="20">10+ Usuários, Vídeos Ilimitados (R$20)</option>
-              {/* Outras opções de planos aqui */}
             </select>
           </div>
-          <button className="cadastre-btn" onClick={handleCadastroClick}>Cadastrar</button>
+          <p className='titulo' style={{fontSize:'1rem'}}>10+ Usuários</p>
+          <div className="dropdown">
+            <select>
+              <option value="40">Vídeos Ilimitados (R$40)</option>
+            </select>
+          </div>
+          <button className="cadastre-btn2" onClick={handleCadastroClick}>Cadastrar</button>
         </div>
       </div>
 
-      <div className="card card-corporativo">
-        <div className="card-header">SobreSection2</div>
-        <div className="card-body">
-          <h2>Corporativo</h2>
-          <p>Entre em Contato</p>
-          <button className="contato-btn" onClick={handleContatoClick}>Entre em Contato</button>
+      <div className="card" style={{ backgroundColor: '#fff' }}>
+        <div className="card-header" style={{ backgroundColor: '#fff', color: '#000' }}>Corporativo</div>  
+        <img src="../cell.png" alt="Celular" className='celular'/>
+          <button className="cadastre-btn2" onClick={handleCadastroClick}>Entre Em Contato</button>
         </div>
       </div>
-    </div>
   );
 }
 
-export default CardsContainer;
-
+export default SobreSec2;

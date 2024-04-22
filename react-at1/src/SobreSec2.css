@@ -1,32 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .cards-container {
-  text-align: center; /* Centraliza os cards horizontalmente */
+  margin-left: 20rem;
+  margin-right: 20rem;
+  height: 50rem;
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
 }
 
 .card {
-  display: inline-block; /* Exibe os cards lado a lado */
-  width: calc(33.33% - 20px); /* Define a largura de cada card */
+  flex: 0 1 calc(33.33% - 20px); 
   margin: 10px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  vertical-align: top; /* Alinha os cards ao topo */
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-header {
+  font-weight: bold;
   background-color: #fff;
   color: #000;
   text-align: center;
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .card-body {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
   padding: 20px;
 }
 
 .card-body h2 {
   font-size: 2rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .card-body p {
@@ -34,7 +50,15 @@
   margin-bottom: 10px;
 }
 
+.celular{
+  width: 100px;
+  align-self: center;
+}
+
 .dropdown {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
   margin-bottom: 10px;
 }
 
@@ -42,20 +66,39 @@
   width: 100%;
   padding: 8px;
   font-size: 1rem;
+  border: none;
 }
 
 .cadastre-btn,
-.contato-btn {
+.cadastre-btn2 {
   display: block;
   width: 100%;
   padding: 10px;
   margin-top: 20px;
-  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #929292;
   border-radius: 5px;
-  background-color: #333;
-  color: #fff;
-  font-size: 1rem;
   cursor: pointer;
   text-align: center;
   font-weight: bold;
+}
+
+.cadastre-btn {
+  font-family: 'Roboto Mono';
+  background-color: #6975E8;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.cadastre-btn2 {
+  font-family: 'Roboto Mono';
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.titulo {
+  color: #8790A3;
+  font-size: 1rem;
 }

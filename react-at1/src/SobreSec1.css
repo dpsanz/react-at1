@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .sobre-sec1-container {
     margin-bottom: 4rem; /* Espaço na parte inferior da seção */
   }
@@ -9,8 +11,9 @@
   }
   
   .texto {
+    color: #333;
     flex: 1;
-    padding-right: 1rem; /* Espaço à direita do texto */
+    padding-right: 0.2rem;
   }
   
   .texto h2 {
@@ -28,6 +31,6 @@
   .imagens img {
     max-width: 100%;
     height: auto;
-    padding-left: 1rem; /* Espaço à esquerda das imagens */
+    padding-left: 1rem;
   }
   

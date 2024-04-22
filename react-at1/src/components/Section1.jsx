@@ -10,13 +10,13 @@ return (
     <section>
       <div className="conteudo">
         <div className="texto">
-          <h2>AT1-REACT</h2>
-          <p>Feito por Daniel, Reimar e Tadashi, este site possui o drip. Um exemplo disso é essa imagem ao lado:
+          <h2>Crie seus vídeos online</h2>
+          <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.
           </p>
-          <button className='but1' onClick={handleContatoClick}>Contato</button>
+          <button className='but1' onClick={handleContatoClick}>Começar Agora!</button>
         </div>
         <div className="imagem">
-          <img src="../Public/ban.jpg" alt="Descrição da imagem" />
+          <img src="../Public/Hero image.png" alt="Descrição da imagem" />
         </div>
       </div>
     </section>

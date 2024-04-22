@@ -1,11 +1,15 @@
 import '../Navbar.css'
 
 function Navbar() {
+  const handleNavigate = (route) => {
+    window.location.href = route;
+  };
+
 return (
     <header>
-         <a href="/">Home</a>
-         <a href="../pages/Sobre.jsx">Sobre</a>
-         <a href="../pages/Contato.jsx">Contato</a>
+         <a onClick={() => handleNavigate('/')}>Home</a>
+         <a onClick={() => handleNavigate('../pages/Sobre.jsx')}>Sobre</a>
+         <a onClick={() => handleNavigate('../pages/Contato.jsx')}>Contato</a>
     </header>
   );
 }

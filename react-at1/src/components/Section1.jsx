@@ -1,17 +1,22 @@
 import '../Section1.css'
 
 function Section1() {
+
+  const handleContatoClick = () => {
+    window.location.href = '/contato';
+  };
 return (
     <>
     <section>
       <div className="conteudo">
         <div className="texto">
-          <h2>Crie Seus Vídeos Online</h2>
-          <p>Subtítulo da Seção</p>
-          <button className='but1'>Meu Botão</button>
+          <h2>AT1-REACT</h2>
+          <p>Feito por Daniel, Reimar e Tadashi, este site possui o drip. Um exemplo disso é essa imagem ao lado:
+          </p>
+          <button className='but1' onClick={handleContatoClick}>Contato</button>
         </div>
         <div className="imagem">
-          <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem" />
+          <img src="../Public/ban.jpg" alt="Descrição da imagem" />
         </div>
       </div>
     </section>

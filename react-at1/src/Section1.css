@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  font-family: 'Roboto Mono';
+  padding: 2rem;
+}
+
 .conteudo {
     display: flex;
     justify-content: space-between;
@@ -5,14 +12,46 @@
   }
   
   .texto {
+    padding-left: 1rem;
     flex: 1;
+  }
+
+  .texto h2{
+    font-size: 3.5rem;
+  }
+
+  .texto p{
+    font-size: 1.5rem;
   }
   
   .imagem {
     flex: 1;
+    display: flex;
   }
   
   .imagem img {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     height: auto;
+    padding-top: 3rem;
   }
+
+
+.but1{
+  font-family: 'Roboto Mono';
+  background-color: #333;
+  border-radius: 3rem;
+  border-style: none;
+  padding: 1rem 4rem 1rem 4rem;
+  color: antiquewhite;
+  font-size: 1rem;
+}
+
+.but1:hover{
+  background-color: black;
+  transition: .5s;
+  letter-spacing: 0.2rem;
+}
+

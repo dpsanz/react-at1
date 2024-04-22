@@ -1,0 +1,33 @@
+.sobre-sec1-container {
+    margin-bottom: 4rem; /* Espaço na parte inferior da seção */
+  }
+  
+  .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto {
+    flex: 1;
+    padding-right: 1rem; /* Espaço à direita do texto */
+  }
+  
+  .texto h2 {
+    font-size: 4rem;
+  }
+  
+  .texto p {
+    font-size: 1.5rem;
+  }
+  
+  .imagens {
+    display: flex;
+  }
+  
+  .imagens img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 1rem; /* Espaço à esquerda das imagens */
+  }
+  
